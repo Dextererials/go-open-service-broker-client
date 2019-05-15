@@ -8,7 +8,7 @@ import (
 	"sort"
 
 	"k8s.io/klog"
-	"github.com/pmorie/go-open-service-broker-client/v2"
+	"github.com/Dextererials/go-open-service-broker-client/v2"
 )
 
 // GetCatalog will produce a valid GetCatalog response based on the generator settings.
