@@ -154,6 +154,7 @@ func (c *client) prepareAndDo(method, URL string, params map[string]string, body
 	}
 
 	request.Header.Set(APIVersionHeader, c.APIVersion.HeaderValue())
+	request.Header.Set("X-Api-Info-Location", "api.sys.px-npe1103.pks.t-mobile.com")
 	if bodyReader != nil {
 		request.Header.Set(contentType, jsonType)
 	}
